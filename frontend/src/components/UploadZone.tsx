@@ -39,7 +39,7 @@ export default function UploadZone({ onFileSelect }: UploadZoneProps) {
     >
       <input
         type="file"
-        accept="image/png, image/jpeg, image/heic"
+        accept="image/png, image/jpeg"
         className="hidden"
         id="fileUpload"
         onChange={(e) => {
@@ -52,7 +52,7 @@ export default function UploadZone({ onFileSelect }: UploadZoneProps) {
       <label htmlFor="fileUpload" className="cursor-pointer">
         <p className="text-lg font-medium">Upload Image</p>
         <p className="text-sm text-gray-500 mt-2">
-          Drag & drop or click to upload (PNG / JPG)
+          Drag & drop or click to upload (PNG / JPG / HEIC)
         </p>
       </label>
     </div>
