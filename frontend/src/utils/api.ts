@@ -19,10 +19,8 @@ export async function extractPalette(file: File) {
     throw new Error(text);
   }
 
-  // ✅ FIX: parse manually (do NOT call response.json again)
   const data = JSON.parse(text);
 
-  // ✅ Handle both formats (array OR {colors: []})
   if (Array.isArray(data)) {
     return { colors: data };
   }
