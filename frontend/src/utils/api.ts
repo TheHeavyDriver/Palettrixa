@@ -10,6 +10,10 @@ export async function extractPalette(file: File) {
     }
   );
 
+  const text = await response.text();
+
+  console.log("RAW RESPONSE:", text);
+
   if (!response.ok) {
     const err = await response.text();
     console.error("Backend error:", err);
