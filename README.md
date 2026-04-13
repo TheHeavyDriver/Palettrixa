@@ -2,6 +2,11 @@
 
 Palettrixa is a full-stack web application that extracts dominant color palettes from images and analyzes their accessibility. Upload an image to instantly generate a palette along with contrast information for design usability.
 
+## 💻 Screenshots
+<img width="1866" height="998" alt="image" src="https://github.com/user-attachments/assets/369bf684-1695-4bce-a823-c5a4d2744a66" />
+<img width="1866" height="1002" alt="image" src="https://github.com/user-attachments/assets/8d6b0e72-8d29-4882-962b-752a8b7591ed" />
+
+
 ## ✨ Features
 
 - Upload images (drag & drop or file upload)
